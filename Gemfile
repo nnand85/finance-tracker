@@ -26,6 +26,12 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# START CUSTOM GEMS
+
+gem 'devise'
+
+# END CUSTOM GEMS
+
 group :production do
   # Gem PG for Heroku
   gem 'pg'
